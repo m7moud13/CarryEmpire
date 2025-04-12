@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+
+@layer base {
+    :root {
+        --color-accent: var(--color-amber-400);
+        --color-accent-content: var(--color-amber-600);
+        --color-accent-foreground: var(--color-amber-950);
+    }
+
+    .dark {
+        --color-accent: var(--color-amber-400);
+        --color-accent-content: var(--color-amber-400);
+        --color-accent-foreground: var(--color-amber-950);
+    }
+}
